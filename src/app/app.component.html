@@ -1,1 +1,5 @@
-<div id='player'></div>
+<div *ngFor='let video_url of video_urls; let i = index'>
+    <button (click)='changeVideo(video_url)'>video{{i}}</button>
+</div>
+
+<app-bitmovin-player [src] = 'video'></app-bitmovin-player>

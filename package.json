@@ -24,6 +24,7 @@
     "bitmovin-player": "^7.6.2",
     "bitmovin-player-ui": "^2.14.0",
     "core-js": "^2.4.1",
+    "hoek": "^5.0.3",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
